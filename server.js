@@ -51,7 +51,7 @@ app.post('/register',(req,res)=>{register.handleRegister(req,res,db,bcrypt)})
 
 
 app.listen(process.env.PORT || 3000,()=>{
-	console.log('App is Running! on port'${process.env.PORT});
+	console.log('App is Running! on port ${process.env.PORT}');
 })
 
 /*
